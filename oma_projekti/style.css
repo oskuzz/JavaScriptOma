@@ -1,3 +1,16 @@
+
+body::after {
+  content: "";
+  background: url(Pictures/pic6.jpg);
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+}
+
 strong {
   box-shadow: 0px 5px 50px 10px #888888;
   font-family: "Arial Black", Gadget, sans-serif;
@@ -22,14 +35,16 @@ strong {
 }
 
 .li a {
+  font-size: 20px;
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 22px;
   text-decoration: none;
 }
 .li a:hover {
   background-color: #111;
+  font-size: 25px;
 }
 .li a:link {
   color: #C8C8C8;
@@ -40,14 +55,9 @@ strong {
  transition: .4s;
 }
 
-.active {
-  background-color: #4CAF50;
-}
-
 body {
   margin: 0px;
 }
-
 
 .upperSliderRight:hover {
 
@@ -77,7 +87,7 @@ body {
   height: 500px;
   position: absolute;
   display: block;
-
+  opacity: 0.75;
 }
 
 .upperSliderRight {
