@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="sketch.js"></script>
@@ -7,25 +8,22 @@
   <body>
 
     <strong>
-      <li><a class="active" href="index.html">Home</a></li>
-      <li><a href="news.html">News</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="about.html">About</a></li>
+      <li class="li"><a class="active" href="index.html">Home</a></li>
+      <li class="li"><a href="news.html">News</a></li>
+      <li class="li"><a href="projects.html">Projects</a></li>
+      <li class="li"><a href="about.html">About</a></li>
     </strong>
 
     <div class="upperSliderDiv">
-      <img class="upperSlider" src="Pictures/pic1.jpg">
-      <img class="upperSlider" src="Pictures/pic2.jpg">
       <img class="upperSlider" src="Pictures/pic3.jpg">
+      <img class="upperSlider" src="Pictures/pic1.jpg">
       <img class="upperSlider" src="Pictures/pic4.jpg">
       <img class="upperSlider" src="Pictures/pic5.jpg">
-      <a class="upperSliderLeft" onclick="plusDivs(-1)">&#10094;</a>
-      <a class="upperSliderRight" onclick="plusDivs(1)">&#10095;</a>
+      <li class="upperSliderLi"><a class="upperSliderLeft"onclick="plusDivs(-1)">&#10094;</a></li>
+      <li class="upperSliderLi"><a class="upperSliderRight"onclick="plusDivs(1)">&#10095;</a></li>
       <script type="text/javascript">
         plusDivs(1);
       </script>
-    </div>
-    <div id="logo">
     </div>
   </body>
 </html>
