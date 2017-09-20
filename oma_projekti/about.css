@@ -1,0 +1,83 @@
+.pohja1 {
+  background-color: white;
+  box-shadow: 0px 0px 50px 10px black inset;
+  position: absolute;
+  top: 130px;
+  left: 20px;
+  width: 530px;
+  height: 300px;
+  border-radius: 20px;
+  border: 2px solid white;
+  opacity: 0.6;
+}
+
+.img-mina {
+  position: absolute;
+  display: block;
+  border-radius: 20px;
+  border: 1px solid white;
+  top: 160px;
+  left: 270px;
+  width: 240px;
+  height: 240px;
+}
+
+.otsikko {
+  font-family: "Arial Black", Gadget, sans-serif;
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+  top: 160px;
+  display: block;
+  background-color: #123;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+.nimi {
+  font-family: "Arial Black", Gadget, sans-serif;
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+  top: 235px;
+  display: block;
+  background-color: #123;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.saika {
+  border-radius: 20px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+  top: 294px;
+  display: block;
+  background-color: #123;
+  color: white;
+  border: 1px solid white;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.paikka {
+  border-radius: 20px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+  top: 351px;
+  display: block;
+  background-color: #123;
+  color: white;
+  border: 1px solid white;
+  margin-left: 50px;
+  font-size: 20px;
+}

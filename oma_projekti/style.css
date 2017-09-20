@@ -2,7 +2,6 @@
 body::after {
   content: "";
   background: url(Pictures/pic6.jpg);
-  opacity: 0.4;
   top: 0;
   left: 0;
   bottom: 0;
@@ -11,8 +10,8 @@ body::after {
   z-index: -1;
 }
 
-strong {
-  box-shadow: 0px 10px 40px 15px #888888;
+.li-strong {
+  box-shadow: 0px 10px 40px 15px black;
   font-family: "Arial Black", Gadget, sans-serif;
   list-style-type: none;
   margin: 0;
@@ -21,9 +20,7 @@ strong {
   position: absolute;
   background-color: #333;
   top: 500px;
-  width: 98%;
-  margin-left: 20px;
-  margin-right: 20px;
+  width: 100%;
 }
 
 .test {
@@ -39,7 +36,7 @@ strong {
 }
 
 .li a {
-  font-size: 20px;
+  font-size: 25px;
   display: block;
   color: white;
   text-align: center;
@@ -48,7 +45,6 @@ strong {
 }
 .li a:hover {
   background-color: #111;
-  font-size: 25px;
 }
 .li a:link {
   color: #C8C8C8;
@@ -59,6 +55,41 @@ strong {
  transition: .4s;
 }
 
+.li-other-strong {
+  box-shadow: 0px 10px 40px 15px black;
+  font-family: "Arial Black", Gadget, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  background-color: #333;
+  width: 100%;
+}
+
+.li-other {
+  float: left;
+}
+
+.li-other a {
+  font-size: 20px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+.li-other a:hover {
+  background-color: #111;
+}
+.li-other a:link {
+  color: #C8C8C8;
+ -o-transition: .4s;
+ -ms-transition: .4s;
+ -moz-transition: .4s;
+ -webkit-transition: .4s;
+ transition: .4s;
+}
 body {
   margin: 0px;
 }
@@ -66,7 +97,7 @@ body {
 .upperSliderRight:hover {
 
   opacity: 0.6;
-  filter: alpha(opacity=60);
+  filter: alpha(opacity=70);
   -o-transition: .4s;
   -ms-transition: .4s;
   -moz-transition: .4s;
@@ -78,7 +109,7 @@ body {
 
 .upperSliderLeft:hover {
   opacity: 0.6;
-  filter: alpha(opacity=60);
+  filter: alpha(opacity=70);
   -o-transition: .4s;
   -ms-transition: .4s;
   -moz-transition: .4s;
@@ -93,6 +124,8 @@ body {
   display: block;
   opacity: 0.75;
 }
+
+
 
 .upperSliderRight {
   cursor: pointer;
