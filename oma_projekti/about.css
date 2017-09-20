@@ -1,6 +1,6 @@
 .pohja1 {
-  background-color: white;
-  box-shadow: 0px 0px 50px 10px black inset;
+  background-color: #123;
+  box-shadow: 0px 0px 70px 40px black inset;
   position: absolute;
   top: 130px;
   left: 20px;
@@ -12,6 +12,7 @@
 }
 
 .img-mina {
+  box-shadow: 0px 0px 50px 5px #333333;
   position: absolute;
   display: block;
   border-radius: 20px;
@@ -23,6 +24,7 @@
 }
 
 .otsikko {
+  box-shadow: 0px 0px 50px 5px #333333;
   font-family: "Arial Black", Gadget, sans-serif;
   margin: 0;
   padding: 10px;
@@ -38,6 +40,7 @@
 }
 
 .nimi {
+  box-shadow: 0px 0px 50px 5px #333333;
   font-family: "Arial Black", Gadget, sans-serif;
   margin: 0;
   padding: 10px;
@@ -53,6 +56,7 @@
 }
 
 .saika {
+  box-shadow: 0px 0px 50px 5px #333333;
   border-radius: 20px;
   font-family: "Arial Black", Gadget, sans-serif;
   margin: 0;
@@ -68,6 +72,7 @@
 }
 
 .paikka {
+  box-shadow: 0px 0px 50px 5px #333333;
   border-radius: 20px;
   font-family: "Arial Black", Gadget, sans-serif;
   margin: 0;
