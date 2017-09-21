@@ -11,12 +11,12 @@ function make2DArray(cols, rows){
 var grid;
 var cols;
 var rows;
-var w = 20;
+var w = 40;
 
 var totalBees = 100;
 
 function setup() {
-  createCanvas(601, 601);
+  createCanvas(801, 801);
   cols = floor(width / w);
   rows = floor(height / w);
   grid = make2DArray(cols, rows);

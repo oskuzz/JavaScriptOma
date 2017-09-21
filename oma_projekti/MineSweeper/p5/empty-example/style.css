@@ -7,14 +7,19 @@
   float: left;
   font-size: 25px;
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 10px 12px;
   text-decoration: none;
   position: absolute;
   border-radius: 20px;
-  border: 1px solid white;
+  border: 1px solid black;
   top: 10px;
   left: 10px;
 
+}
+
+#defaultCanvas0 {
+  position: absolute;
+  left: 150px;
 }

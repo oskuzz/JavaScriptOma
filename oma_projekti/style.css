@@ -18,7 +18,7 @@ body::after {
   padding: 0;
   overflow: hidden;
   position: absolute;
-  background-color: #333;
+  background-color: #123;
   top: 500px;
   width: 100%;
 }
@@ -63,7 +63,7 @@ body::after {
   padding: 0;
   overflow: hidden;
   position: absolute;
-  background-color: #333;
+  background-color: #123;
   width: 100%;
 }
 
