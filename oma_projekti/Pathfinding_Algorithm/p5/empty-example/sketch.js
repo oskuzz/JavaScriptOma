@@ -82,6 +82,7 @@ function Spot(i,j) {
 function setup() {
   createCanvas(800,800);
   console.log("A*");
+  
 
   w = width / cols;
   h = height / rows;

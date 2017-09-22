@@ -13,7 +13,7 @@ var cols;
 var rows;
 var w = 40;
 
-var totalBees = 100;
+var totalBees = 50;
 
 function setup() {
   createCanvas(801, 801);
