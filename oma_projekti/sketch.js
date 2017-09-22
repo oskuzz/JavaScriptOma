@@ -19,3 +19,8 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";
 }
+
+function popup() {
+    var popup = document.getElementById("popup");
+    popup.classList.toggle("show");
+}
