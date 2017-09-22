@@ -1,13 +1,13 @@
 var population;
-var lifespan = 500;
+var lifespan = 600;
 var count = 0;
 var target;
 var maxforce = 0.5;
 var roundCounter = 0;
 
-var rx = 150;
+var rx = 200;
 var ry = 200;
-var rw = 300;
+var rw = 200;
 var rh = 10;
 
 function setup() {
@@ -29,7 +29,7 @@ function draw() {
     count = 0;
   }
   fill(255);
-  rect(150, 200, 300, 10);
+  rect(200, 200, 200, 10);
   ellipse(target.x, target.y, 16, 16);
 }
 
