@@ -12,8 +12,8 @@ function heuristic(a,b) {
   return d;
 }
 
-var cols = 50;
-var rows = 50;
+var cols = 150;
+var rows = 150;
 var grid = new Array(cols);
 
 var openSet = [];
@@ -80,7 +80,7 @@ function Spot(i,j) {
 }
 
 function setup() {
-  createCanvas(400,400);
+  createCanvas(800,800);
   console.log("A*");
 
   w = width / cols;

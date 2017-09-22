@@ -16,7 +16,6 @@ function Snake() {
   }
 
   this.eat = function(pos) {
-    lifeP.html(this.total + 1);
     var d = dist(this.x, this.y, pos.x, pos.y);
     if (d < 1) {
       this.total++;

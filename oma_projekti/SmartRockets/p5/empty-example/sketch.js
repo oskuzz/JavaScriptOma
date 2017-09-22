@@ -1,34 +1,25 @@
 var population;
-var lifespan = 600;
-var lifeP;
+var lifespan = 500;
 var count = 0;
 var target;
 var maxforce = 0.5;
 var roundCounter = 0;
 
-var rx = 100;
-var ry = 150;
-var rw = 200;
+var rx = 150;
+var ry = 200;
+var rw = 300;
 var rh = 10;
 
-
-
-
 function setup() {
-  createCanvas(400,400);
+  createCanvas(600,600);
   rocket = new Rocket();
   population = new Population();
-  lifeP = createP();
   target = createVector(width/2, 50);
-
-
 }
 
 function draw() {
   background(0);
   population.run();
-  lifeP.html("Rounds: " + floor(roundCounter));
-
 
   count++;
   if (count == lifespan) {
@@ -38,7 +29,7 @@ function draw() {
     count = 0;
   }
   fill(255);
-  rect(100, 150, 200, 10);
+  rect(150, 200, 300, 10);
   ellipse(target.x, target.y, 16, 16);
 }
 
@@ -60,8 +51,6 @@ function Population() {
         maxfit = this.rockets[i].fitness
       }
     }
-    createP(maxfit);
-
 
     for (var i = 0; i< this.popsize; i++) {
       this.rockets[i].fitness /= maxfit;
@@ -86,7 +75,6 @@ function Population() {
       newRockets[i] = new Rocket(child);
     }
     this.rockets = newRockets;
-
   }
 
   this.run = function() {
@@ -96,7 +84,6 @@ function Population() {
     }
   }
 }
-
 
 function DNA(genes) {
   if (genes) {
@@ -130,7 +117,6 @@ function DNA(genes) {
       }
     }
   }
-
 }
 
 function Rocket(dna){
@@ -161,7 +147,6 @@ function Rocket(dna){
     }
   }
 
-
   this.update = function() {
 
     var d = dist(this.pos.x, this.pos.y, target.x, target.y);
@@ -179,7 +164,6 @@ function Rocket(dna){
     if (this.pos.y > height || this.pos.y < 0) {
       this.crashed = true;
     }
-
 
     this.applyForce(this.dna.genes[count]);
     if (!this.completed && !this.crashed) {
@@ -201,5 +185,4 @@ function Rocket(dna){
     pop();
 
   }
-
 }

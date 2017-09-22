@@ -1,21 +1,18 @@
 var s;
 var scl = 20;
 var food;
-var lifeP;
 var Dir = 0;
 
 function setup() {
   createCanvas(600,600);
   s = new Snake();
   pickLocation();
-  lifeP = createP();
-
 }
 
 function pickLocation() {
   var cols = floor(width/scl);
   var rows = floor(height/scl);
-  
+
   food = createVector(floor(random(cols)), floor(random(rows)));
   food.mult(scl);
 

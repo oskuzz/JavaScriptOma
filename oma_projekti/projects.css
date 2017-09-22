@@ -38,3 +38,63 @@
   border-radius: 20px;
   border: 1px solid white;
 }
+.PathFinding_Algorithm{
+  position: absolute;
+  left: 405px;
+  top: 100px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #123;
+  float: left;
+  font-size: 25px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+.SmartRockets{
+  position: absolute;
+  top: 100px;
+  left: 770px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #123;
+  float: left;
+  font-size: 25px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+.Snake{
+  position: absolute;
+  top: 100px;
+  left: 1025px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #123;
+  float: left;
+  font-size: 25px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 1px solid white;
+}
