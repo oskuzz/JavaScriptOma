@@ -21,6 +21,6 @@ function showDivs(n) {
 }
 
 function popup() {
-    var popup = document.getElementById("popup");
+    var popup = document.getElementById("popupMatrix");
     popup.classList.toggle("show");
 }
