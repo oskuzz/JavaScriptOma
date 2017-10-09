@@ -20,7 +20,27 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";
 }
 
-function popup() {
+function popupMatrix() {
     var popup = document.getElementById("popupMatrix");
+    popup.classList.toggle("show");
+}
+
+function popupMine() {
+    var popup = document.getElementById("popupMine");
+    popup.classList.toggle("show");
+}
+
+function popupPath() {
+    var popup = document.getElementById("popupPath");
+    popup.classList.toggle("show");
+}
+
+function popupSmart() {
+    var popup = document.getElementById("popupSmart");
+    popup.classList.toggle("show");
+}
+
+function popupSnake() {
+    var popup = document.getElementById("popupSnake");
     popup.classList.toggle("show");
 }
